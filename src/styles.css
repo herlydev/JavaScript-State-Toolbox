@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #e0d0c1;
+  height: 100vh;
+}
+
+.navigation-wrapper {
+  display: flex;
+  justify-content: space-around;
+  height: 25px;
+  padding: 20px;
+  background-color: #a46d60;
+}
+
+.navigation-wrapper a {
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  color: #601700;
+}
+
+.navigation-wrapper a:hover {
+  color: #e0d0c1;
+}
